@@ -29,7 +29,7 @@ n_train = 5000
 n_valid = int(n_train*0.3)
 n_test = n_valid
 
-status = 'train'  # generate, train, evaluate
+status = 'evaluate'  # generate, train, evaluate
 model_path = None  # None = last generated
 
 def main(status):
